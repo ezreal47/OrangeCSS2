@@ -90,7 +90,7 @@ export default {
 </script>
 <style lang="scss" scoped>
   .box {
-    margin: 20px 0;
+    margin: 20px 0 20px 30px;
     .box2 {
       margin: 20px 0;
     }

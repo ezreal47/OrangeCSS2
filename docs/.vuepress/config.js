@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/OrangeCSS2/',
   title: 'OrangeCSS',
   description: '一个基于Vue.js的小型组件库',
   themeConfig: {

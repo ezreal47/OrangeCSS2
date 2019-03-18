@@ -6,4 +6,6 @@
   * 搜索按钮及下载按钮
   * Loading状态的按钮，设置size属性可调整按钮大小
 
-<button-demo></button-demo>
+<ClientOnly>  
+  <button-demo></button-demo>
+</ClientOnly>
