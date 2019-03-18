@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+      $button-height: 36px;
+      $font-size: 14px;
+      $button-bg: white;
+      $border-radius: 4px;
+      $color: #515a6e;
+      $border-color: #dcdee2;
+    body {
+      font-size: $font-size;
+    }
+    #app {
+      margin: 100px;
+    }
+   .icon { height: 1.2em; width: 1.2em; }
