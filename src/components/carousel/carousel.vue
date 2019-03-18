@@ -7,14 +7,14 @@
     </div>
     <div class="carousel-dots">
       <span class="icon" @click="select(selectedIndex - 1)">
-        <svg><use xlink:href="#icon-left"></use></svg>
+        <svg class="icon-"><use xlink:href="#icon-left"></use></svg>
       </span>
       <span v-for="n in childrenLength" :key="n.id" :class="{active: selectedIndex === n-1}"
       @click="select(n-1)">
         {{n}}
       </span>
        <span class="icon" @click="select(selectedIndex + 1)">
-         <svg><use xlink:href="#icon-left-copy"></use></svg>
+         <svg class="icon-"><use xlink:href="#icon-left-copy"></use></svg>
        </span>
     </div>
   </div>  
@@ -128,6 +128,10 @@ export default {
       transition: fill 0.2s;
       background: #fff; fill: #46a1de;
       &:hover {fill: #FFBC42}  
+    }
+    .icon- {
+      width: 22px;
+      height: 22px;
     }
     > span {
       display: inline-flex;

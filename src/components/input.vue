@@ -10,12 +10,12 @@
         </span>
       </template>
         
-      <template v-else>
+      <div v-else class="search-wrapper">
         <input type="text" placeholder="search something" class="o-input-enter">
         <span class="input-search-enter">
           <svg class="icon"><use xlink:href="#icon-fangdajing">></use></svg>
         </span>  
-      </template>
+      </div>
     </span>
     
     <div v-if="animational" class="search-form">
